@@ -3,6 +3,7 @@
 #include "6_function/6_4.h"
 #include "6_function/6_5.h"
 #include "6_function/6_10.h"
+#include "6_function/6_12.h"
 using namespace std;
 
 void test(){
@@ -10,6 +11,8 @@ void test(){
     int b = 9;
     cout << "a, b before swap: a = " << a << "\t b = " << b << endl;
     mySwap(&a, &b);
+    cout << "a, b after swap: a = " << a << "\t b = " << b << endl;
+    mySwap(a, b);
     cout << "a, b after swap: a = " << a << "\t b = " << b << endl;
 }
 

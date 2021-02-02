@@ -1,0 +1,5 @@
+6.18 为下面的函数编写函数声明，从给定的名字中推测函数具备的功能。
+    （a）名字为compare的函数，返回布尔值，两个参数都是matrix类的引用。
+        bool compare(const matrix& a, const matrix& b);
+    （b）名字为change_val的函数，返回vector<int>的迭代器，有两个参数：一个是int，另一个是vector<int>的迭代器
+        vector<int>::iterator change_val(const int&, vector<int>::iterator)

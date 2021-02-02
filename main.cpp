@@ -4,16 +4,12 @@
 #include "6_function/6_5.h"
 #include "6_function/6_10.h"
 #include "6_function/6_12.h"
+#include "6_function/6_7.h"
 using namespace std;
 
 void test(){
-    int a = -10;
-    int b = 9;
-    cout << "a, b before swap: a = " << a << "\t b = " << b << endl;
-    mySwap(&a, &b);
-    cout << "a, b after swap: a = " << a << "\t b = " << b << endl;
-    mySwap(a, b);
-    cout << "a, b after swap: a = " << a << "\t b = " << b << endl;
+    for (int i = 0; i < 10; i++)
+        cout << countUseTime() << endl;
 }
 
 int main() {

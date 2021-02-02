@@ -4,12 +4,13 @@
 #include "6_function/6_5.h"
 #include "6_function/6_10.h"
 #include "6_function/6_12.h"
-#include "6_function/6_7.h"
+#include "6_function/6_11.h"
 using namespace std;
 
 void test(){
-    for (int i = 0; i < 10; i++)
-        cout << countUseTime() << endl;
+    int b = 50;
+    resetInt(b);
+    cout << b << endl;
 }
 
 int main() {

@@ -4,13 +4,13 @@
 #include "6_function/6_5.h"
 #include "6_function/6_10.h"
 #include "6_function/6_12.h"
-#include "6_function/6_11.h"
+#include "6_function/6_16.h"
 using namespace std;
 
 void test(){
-    int b = 50;
-    resetInt(b);
-    cout << b << endl;
+    string a = "slkdjgl";
+    cout << my_is_empty(a) << endl;
+    cout << my_is_empty("lkdgj") << endl;
 }
 
 int main() {

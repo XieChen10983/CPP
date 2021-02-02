@@ -1,0 +1,2 @@
+for循环使用initializer_list对象的时候，可以将循环控制变量声明为引用类型，将控制变量和initializer_list对象绑在一切。控制
+变量定义为const类型，防止对initializer_list对象进行修改。

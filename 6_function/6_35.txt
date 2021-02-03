@@ -1,0 +1,2 @@
+// 在调用factorial函数的时候，为什么我们传入的值是val-1而不是val--？
+    答：factorial(val--)先执行完factorial(val)再执行val--，因此将不会结束递归。

@@ -4,17 +4,14 @@
 #include "6_function/6_5.h"
 #include "6_function/6_10.h"
 #include "6_function/6_12.h"
-#include "6_function/6_33.h"
+#include "6_function/6_42.h"
 #include <string>
 #include <vector>
 using namespace std;
 
 void test(){
-    vector<int> v;
-    v.reserve(10);
-    for (int i = 0; i < 10; i++)
-        v.push_back(i);
-    printVector(v);
+    cout << make_plural(1, "channing") << endl;
+    cout << make_plural(2, "channing") << endl;
 }
 
 int main() {

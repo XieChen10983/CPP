@@ -4,15 +4,18 @@
 #include "6_function/6_5.h"
 #include "6_function/6_10.h"
 #include "6_function/6_12.h"
-#include "6_function/6_27.h"
+#include "6_function/6_32.h"
 #include <string>
 using namespace std;
 
 void test(){
-    initializer_list<int> li1{1, 5, 8};
-    initializer_list<int> li2{1, 5, 8, 6};
-    cout << calSum(li1);
-    cout << calSum(li2);
+    int a[10] = {8, 6, 7};
+    for (int i = 0; i != 10; ++i)
+        cout << get(a, i) << endl;
+    for (int i = 0; i != 10; ++i)
+        get(a, i) = i;
+    for (int i = 0; i != 10; ++i)
+        cout << get(a, i) << endl;
 }
 
 int main() {

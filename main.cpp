@@ -4,18 +4,17 @@
 #include "6_function/6_5.h"
 #include "6_function/6_10.h"
 #include "6_function/6_12.h"
-#include "6_function/6_32.h"
+#include "6_function/6_33.h"
 #include <string>
+#include <vector>
 using namespace std;
 
 void test(){
-    int a[10] = {8, 6, 7};
-    for (int i = 0; i != 10; ++i)
-        cout << get(a, i) << endl;
-    for (int i = 0; i != 10; ++i)
-        get(a, i) = i;
-    for (int i = 0; i != 10; ++i)
-        cout << get(a, i) << endl;
+    vector<int> v;
+    v.reserve(10);
+    for (int i = 0; i < 10; i++)
+        v.push_back(i);
+    printVector(v);
 }
 
 int main() {

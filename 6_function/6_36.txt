@@ -1,0 +1,15 @@
+// 返回数组指针
+1. 数组不能被拷贝，所以函数不能返回数组，只能返回数组的指针或者引用。
+2. 返回数组指针或者引用的函数定义：
+    （1）类型别名法：定义一个数组指针或者引用类型，再用这个类型进行函数定义：
+        typedef int arrT[10]或者using arrT = int[10]
+        arrT* func(int i)
+    （2）直接声明一个返回数组指针的函数
+        Type (*functionName(parameterList))[dimension];
+        例如 int (*func(int i))[10]{...}
+    （3）使用尾置返回类型
+        auto func(int i) -> int(*)[10];   // func接受一个int类型的实参，返回一个指针，该指针指向含有10个整数的数组
+    （4）如果知道函数返回的指针将指向哪个数组，可以使用decltype关键字声明返回的类型
+
+// 编写一个函数声明，使其返回数组的引用并且该数组包含10个string对象
+string (&func(parameter))[10];

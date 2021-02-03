@@ -1,0 +1,10 @@
+// 类型别名声明法
+typedef string arrT(&)[10] 或 using arrT = string (&)[10];
+arrT func();
+
+// 尾置返回类型法
+auto func() -> string(&)[10];
+
+// decltype法
+string arr[10];
+decltype(arr) &func();  // 返回和arr类型一致的引用

@@ -4,14 +4,13 @@
 #include "6_function/6_5.h"
 #include "6_function/6_10.h"
 #include "6_function/6_12.h"
-#include "6_function/6_42.h"
+#include "6_function/6_44.h"
 #include <string>
 #include <vector>
 using namespace std;
 
-void test(){
-    cout << make_plural(1, "channing") << endl;
-    cout << make_plural(2, "channing") << endl;
+void test() {
+    cout << isShorter("jlsk", "lskjgsj") << endl;
 }
 
 int main() {

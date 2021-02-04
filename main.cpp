@@ -1,12 +1,12 @@
 #include <iostream>
-#include "9_sequentialContainer/9_24.h"
+#include "9_sequentialContainer/9_26.h"
 #include <string>
 #include <vector>
 using namespace std;
 
 void test() {
-    vector<int> v1 = {4, 89, 3};
-    cout << visit(v1, 3251) << endl;
+    int ia[] = {0, 1, 1, 2, 3, 5, 8, 13, 21, 55, 89};
+    func(ia, 11);
 }
 
 int main() {

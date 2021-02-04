@@ -1,8 +1,15 @@
+//
+// Created by Administrator on 2021/2/4.
+// 编写程序，从一个list<int>拷贝元素到两个deque中。偶数一个，奇数一个
+//
+
+#ifndef CHANNING_9_20_H
+#define CHANNING_9_20_H
+#include <deque>
+#include <list>
 #include <iostream>
-#include "9_sequentialContainer/9_20.h"
-#include <string>
-#include <vector>
 using namespace std;
+
 
 void test() {
     list<int> li = {5, 7, 6, 9, 8, 2, 1, 0, 3, 4};
@@ -24,19 +31,4 @@ void test() {
         cout << ele << endl;
 }
 
-int main() {
-//    std::cout << "Hello, World!" << std::endl;
-    test();
-//    system("pause");
-    return 0;
-}
-
-//int main(int argc, char *argv[]){
-//    string res;
-//    for (int i = 0; i < argc; i++){
-//        res += argv[i];
-//    }
-//    cout << res << endl;
-//
-//    return 0;
-//}
+#endif //CHANNING_9_20_H

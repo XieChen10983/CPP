@@ -1,12 +1,16 @@
 #include <iostream>
-#include "9_sequentialContainer/9_13.h"
+#include "9_sequentialContainer/9_16.h"
 #include <string>
 #include <vector>
 using namespace std;
 
 void test() {
-    for (int i = 0; i < 3; i++)
-        cout << v2[i] << endl;
+    vector<int> v1 = {1, 5};
+    vector<int> v = {1, 5};
+    list<int> v2 = {1, 5};
+    vector<double> v3 = {0.5, 0.9};
+    cout << isEqualVectorInt(v1, v2) << endl;
+    cout << (v1 > v) << endl;
 }
 
 int main() {

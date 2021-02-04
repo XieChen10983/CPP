@@ -1,13 +1,12 @@
 #include <iostream>
-#include "9_sequentialContainer/9_5.h"
+#include "9_sequentialContainer/9_13.h"
 #include <string>
 #include <vector>
 using namespace std;
 
 void test() {
-    vector<int> v1;
-    const vector<int> v2;
-    auto it1 = v1.begin(), it2 = v2.begin();
+    for (int i = 0; i < 3; i++)
+        cout << v2[i] << endl;
 }
 
 int main() {

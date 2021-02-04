@@ -5,13 +5,9 @@
 using namespace std;
 
 void test() {
-    vector<int> v;
-    v.push_back(4);
-    v.push_back(8);
-    v.push_back(7);
-    v.push_back(2);
-    for (int i = 0; i < 9; i++)
-        cout << find(v.begin(), v.end(), i) << endl;
+    vector<int> v1;
+    const vector<int> v2;
+    auto it1 = v1.begin(), it2 = v2.begin();
 }
 
 int main() {

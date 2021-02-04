@@ -1,0 +1,4 @@
+9.10
+
+it1和it2是错误的，因为auto只能推断确定的类型，而begin()和end()返回的类型是不确定的
+it3和it4是正确的，其类型为vector<int>::const_iterator

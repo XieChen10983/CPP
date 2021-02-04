@@ -1,11 +1,17 @@
 #include <iostream>
-#include "9_sequentialContainer/9_2.h"
+#include "9_sequentialContainer/9_5.h"
 #include <string>
 #include <vector>
 using namespace std;
 
 void test() {
-    cout << li.size() << endl;
+    vector<int> v;
+    v.push_back(4);
+    v.push_back(8);
+    v.push_back(7);
+    v.push_back(2);
+    for (int i = 0; i < 9; i++)
+        cout << find(v.begin(), v.end(), i) << endl;
 }
 
 int main() {

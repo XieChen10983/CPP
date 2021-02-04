@@ -1,11 +1,11 @@
 #include <iostream>
-#include "6_function/6_3.h"
+#include "9_sequentialContainer/9_2.h"
 #include <string>
 #include <vector>
 using namespace std;
 
 void test() {
-
+    cout << li.size() << endl;
 }
 
 int main() {

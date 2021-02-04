@@ -1,27 +1,12 @@
 #include <iostream>
-#include "9_sequentialContainer/9_20.h"
+#include "9_sequentialContainer/9_24.h"
 #include <string>
 #include <vector>
 using namespace std;
 
 void test() {
-    list<int> li = {5, 7, 6, 9, 8, 2, 1, 0, 3, 4};
-    deque<int> dan, shuang;
-//
-//for (list<int>::iterator iter = li.begin(); iter != li.end(); iter++)
-    for (auto & ele : li){
-        if (ele & 1)
-            dan.push_back(ele);
-        else
-            shuang.push_back(ele);
-    }
-
-    cout << "single" << endl;
-    for (const auto& ele : dan)
-        cout << ele << endl;
-    cout << "not single" << endl;
-    for (const auto& ele : shuang)
-        cout << ele << endl;
+    vector<int> v1 = {4, 89, 3};
+    cout << visit(v1, 3251) << endl;
 }
 
 int main() {

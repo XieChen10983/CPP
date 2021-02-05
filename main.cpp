@@ -1,16 +1,14 @@
 #include <iostream>
-#include "9_sequentialContainer/9_26.h"
+#include "9_sequentialContainer/9_38.h"
 #include <string>
 #include <vector>
 using namespace std;
 
 void test() {
-    int ia[] = {0, 1, 1, 2, 3, 5, 8, 13, 21, 55, 89};
-    func(ia, 11);
+    grow(2, 100);
 }
 
 int main() {
-//    std::cout << "Hello, World!" << std::endl;
     test();
 //    system("pause");
     return 0;

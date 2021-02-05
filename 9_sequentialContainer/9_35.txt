@@ -1,0 +1,2 @@
+9.35 解释一个vector的capacity和size有什么区别。
+    答：一个vector的capacity是它当前能容纳多少元素的能力；其size是当前它容纳量多少个元素的个数。

@@ -1,0 +1,3 @@
+9.37 为什么list或者array没有capacity的成员函数？
+    答：list的存储空间在物理上是不连续的，当其需要新的地址空间的时候，可以找取需要空间即可，capacity机制没有必要
+        array的大小是固定的，也不需要capacity。

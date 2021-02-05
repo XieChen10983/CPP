@@ -1,11 +1,11 @@
 #include <iostream>
-#include "9_sequentialContainer/9_38.h"
+#include "9_sequentialContainer/9_42.h"
 #include <string>
 #include <vector>
 using namespace std;
 
 void test() {
-    grow(2, 100);
+    cinCharToString();
 }
 
 int main() {

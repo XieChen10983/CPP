@@ -1,0 +1,1 @@
+string s(v.begin(), v.end())

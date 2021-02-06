@@ -1,11 +1,12 @@
 #include <iostream>
-#include "9_sequentialContainer/9_42.h"
+#include "11_associationContainer/11_4.h"
 #include <string>
 #include <vector>
+#include <map>
 using namespace std;
 
 void test() {
-    cinCharToString();
+    cinAndCountWords();
 }
 
 int main() {

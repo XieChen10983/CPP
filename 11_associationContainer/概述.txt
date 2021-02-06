@@ -1,0 +1,17 @@
+STL中的关联容器：
+    1. map(包含键值对)
+        map
+        multimap
+        unordered_map
+        unordered_multimap
+    2. set(仅包含键，键值相同)
+        set
+        multiset
+        unordered_set
+        unordered_multiset
+
+所在头文件：
+    map
+    unordered_map
+    set
+    unordered_set

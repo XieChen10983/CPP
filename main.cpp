@@ -1,12 +1,12 @@
 #include <iostream>
-#include "11_associationContainer/11_4.h"
+#include "11_associationContainer/11_8.h"
 #include <string>
 #include <vector>
 #include <map>
 using namespace std;
 
 void test() {
-    cinAndCountWords();
+    func();
 }
 
 int main() {

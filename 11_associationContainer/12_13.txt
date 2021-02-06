@@ -1,0 +1,6 @@
+11.13
+
+make_pair(val1, val2)
+pair<type1, type2>(val1, val2)
+
+pair<type1, type2) p;p.first = val1; p.second = val2;

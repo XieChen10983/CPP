@@ -1,0 +1,4 @@
+1. find(iter_begin, iter_end, value)  查找算法
+2. count(iter_begin, iter_end, value)   统计算法
+3. accumulate(iter_begin, iter_end, baseValue)   求和算法（字符串相加算法）
+4. equal(iter1_begin, iter1_end, iter2_begin)    比较是否相等算法

@@ -1,4 +1,10 @@
+# 只读算法
 1. find(iter_begin, iter_end, value)  查找算法
 2. count(iter_begin, iter_end, value)   统计算法
 3. accumulate(iter_begin, iter_end, baseValue)   求和算法（字符串相加算法）
 4. equal(iter1_begin, iter1_end, iter2_begin)    比较是否相等算法
+
+# 写入算法
+1. fill(iter_begin, iter_end, value)  填充算法
+2. fill_n(iter_begin, fill_num, value)  填充算法
+3. 加入back_inserter：fill_n(back_inserter(v), v.size(), value)会在v的后面添加v大小的value元素，

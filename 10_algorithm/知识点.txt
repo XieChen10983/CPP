@@ -13,3 +13,12 @@
 1. sort(iter_begin, iter_end);
 2. 自定义排序算法sort(iter_begin, iter_end, 谓词)
 3. stable_sort=>相同的元素会排列在一起。
+
+lambda表达式
+1. auto func = [capture list](parameter list)->return type{function body}
+
+# 遍历算法：
+1. for_each(iter_begin, iter_end, 谓词或lambda表达式)
+
+# 查找算法：
+1. find_if(iter_begin, iter_end, 谓词或者lambda表达式）

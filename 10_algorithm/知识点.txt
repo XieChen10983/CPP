@@ -8,3 +8,8 @@
 1. fill(iter_begin, iter_end, value)  填充算法
 2. fill_n(iter_begin, fill_num, value)  填充算法
 3. 加入back_inserter：fill_n(back_inserter(v), v.size(), value)会在v的后面添加v大小的value元素，
+
+# 排序算法
+1. sort(iter_begin, iter_end);
+2. 自定义排序算法sort(iter_begin, iter_end, 谓词)
+3. stable_sort=>相同的元素会排列在一起。

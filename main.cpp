@@ -1,11 +1,11 @@
 #include <iostream>
-#include "10_algorithm/10_21.h"
+#include "8_IOClass/8_1.h"
 #include <string>
 #include <vector>
 using namespace std;
 
 void test() {
-    func();
+    func(cin, "q");
 }
 
 int main() {
